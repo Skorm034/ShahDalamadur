@@ -1,0 +1,26 @@
+Meeting
+
+Attendees: Peter Argent (PA, minute taker) Jim James (JJ, Chair) Hannah Jones (HJ)
+
+Chair's Summerey:
+Battleship code is not currently working, we have been hired to do fix it.
+We have GitWiki 
+
+Information: Next two weeks is about understanding the legacy code.
+
+Meeting Start 1612
+
+Everyone download old code (Action - Everyone)
+Trello Board to be created (Action - JJ)
+Toggl to be created (Action - JJ to create, E to create accounts)
+GitHub accounts (No action required)
+Functional Issue List to be created on wiki (HJ)
+Create a list of all files and assets on wiki (JJ)
+Any unused code or files, list to be created (JJ)
+Tools to be used to convert VB.net to C# (PA, report back at next meeting)
+Coding standards? (Decision - Use the legacy codes or PascalCase and _camelCase, motioned PA, seconded JJ)
+List Obvious things to do/fix(JJ, HJ)
+Create list of new things (PA)
+
+Meeting end 1619
+
