@@ -2,7 +2,7 @@ Meeting
 
 Attendees: Peter Argent (PA, minute taker) Jim James (JJ, Chair) Hannah Jones (HJ)
 
-Chair's Summerey:
+Chair's Summary:
 Battleship code is not currently working, we have been hired to do fix it.
 We have GitWiki 
 

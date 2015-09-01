@@ -1,0 +1,62 @@
+Meeting
+
+Attendees: Peter Argent (PA, minute taker) Jim James (JJ, Chair) Hannah Jones (HJ), and new person Marcus Crisafi (MC)
+
+Chair's Summary: 
+Last week researched every thing, JJ's code would not work, continued using the git repo, and went and listed everything. Welcome to MC. Couldn't find any unused files
+
+MC Summary:
+Hello, and hope i have a role
+
+PA:
+Did small amount of research on vb.net to c#. Swingame has its c#. Created a list of things to add 
+
+HJ:
+Made a list of glaring problems, found on wiki
+
+Information Updates/Reminders
+=============================
+* Last week was about analysing the legacy code.
+* This week is about converting and documenting the code
+* Next week we will use a sprint process over two weeks to fix
+bugs and extend the project. (No bug fixing or extensions yet!)
+* Everyone should be able to use the team git repo, github wiki’s
+and Trello. Ask for help (tutor or team) if that’s a problem.
+* Everyone should have used toggl.com to track their time last
+week. Also track time on tasks this week with Toggl.
+* Tutor must be added to github, trello and toggl.
+* The Programming Help Desk ATC620 is *still* available to help us
+with programming for this unit.
+
+
+Meeting Start 1548
+
+Decisions Needed
+================
+* What tool(s) will be used to do the conversion, based on the
+report?
+Use Telerik (Motion PA, Second HJ, passed unianimously)
+When we convert take C# swingame template and drop there.
+
+* What coding standard will be used for C#, based on the report?
+PascalCase for Method Name; camelCase for fields and variables; _ before fields
+
+General Items
+=============
+* Add tutor account to team tools (github, wiki, toggle) (JJ)
+* Code needs to be converted, and the converted code committed to
+the repository. (Note – repository must start with VB code.) (PA, MC)
+* Converted code will need the appropriate SwinGame files to build
+and run the C# code. (MC)
+* Missing code documentation (identified by report) needs to be
+fixed in the converted code. Can be shared by several people (JJ, HJ)
+* Converted and running code functionality needs to be checked to
+make sure it is the same as before (Validation). Suggest a
+checklist (list of functions?) to document the before and after
+result. (HJ)
+* There may be missing features, bugs or extension ideas that have
+not been identified and documented. This will be needed for the
+up-coming two-week sprint, so we should continue to look for these
+and note what they are. (Everyone)
+
+Meeting End 1600  
