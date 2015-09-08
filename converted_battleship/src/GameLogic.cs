@@ -7,8 +7,10 @@ using System.Diagnostics;
 using SwinGameSDK;
 namespace BattleShips
 {
+
 static class GameLogic
 {
+
 	public static void Main()
 	{
 		//Opens a new Graphics Window

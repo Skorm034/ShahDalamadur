@@ -11,6 +11,9 @@ using System.Diagnostics;
 /// </summary>
 namespace BattleShips
 {
+	/// <summary>
+	/// Enumeration to define what state the game is in
+	/// </summary>
 public enum GameState
 {
 	/// <summary>
