@@ -7,7 +7,8 @@ using System.Data;
 using System.Diagnostics;
 using System.IO;
 using SwinGameSDK;
-
+namespace BattleShips
+{
 /// <summary>
 /// Controls displaying and collecting high score data.
 /// </summary>
@@ -204,7 +205,7 @@ static class HighScoreController
 		}
 	}
 }
-
+}
 //=======================================================
 //Service provided by Telerik (www.telerik.com)
 //Conversion powered by NRefactory.
