@@ -8,7 +8,9 @@ using SwinGameSDK;
 
 namespace BattleShips
 {
-
+	/// <summary>
+	/// Class for all Game Resources
+	/// </summary>
 public static class GameResources
 {
 
@@ -110,7 +112,6 @@ public static class GameResources
 	private static Dictionary<string, Bitmap> _Images = new Dictionary<string, Bitmap>();
 	private static Dictionary<string, Font> _Fonts = new Dictionary<string, Font>();
 	private static Dictionary<string, SoundEffect> _Sounds = new Dictionary<string, SoundEffect>();
-
 	private static Dictionary<string, Music> _Music = new Dictionary<string, Music>();
 	private static Bitmap _Background;
 	private static Bitmap _Animation;

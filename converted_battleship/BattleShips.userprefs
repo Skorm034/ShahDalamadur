@@ -1,25 +1,23 @@
 ﻿<Properties StartupItem="BattleShips.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Mac|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\GameController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src\UtilityFunctions.cs">
     <Files>
-      <File FileName="src\Model\AIPlayer.cs" Line="1" Column="1" />
-      <File FileName="src\Model\AIHardPlayer.cs" Line="5" Column="34" />
-      <File FileName="src\Model\AIMediumPlayer.cs" Line="1" Column="1" />
-      <File FileName="src\GameController.cs" Line="66" Column="52" />
-      <File FileName="src\DeploymentController.cs" Line="22" Column="16" />
-      <File FileName="src\DiscoveryController.cs" Line="5" Column="34" />
-      <File FileName="src\EndingGameController.cs" Line="5" Column="34" />
-      <File FileName="src\GameResources.cs" Line="1" Column="1" />
+      <File FileName="src\DeploymentController.cs" Line="9" Column="22" />
+      <File FileName="src\DiscoveryController.cs" Line="9" Column="2" />
+      <File FileName="src\EndingGameController.cs" Line="46" Column="2" />
+      <File FileName="src\GameController.cs" Line="15" Column="21" />
+      <File FileName="src\GameLogic.cs" Line="34" Column="2" />
+      <File FileName="src\GameResources.cs" Line="311" Column="2" />
       <File FileName="src\GameState.cs" Line="1" Column="1" />
       <File FileName="src\HighScoreController.cs" Line="1" Column="1" />
       <File FileName="src\MenuController.cs" Line="1" Column="1" />
-      <File FileName="src\UtilityFunctions.cs" Line="1" Column="1" />
-      <File FileName="src\Model\AIOption.cs" Line="1" Column="1" />
-      <File FileName="c:\Users\Marcus\Documents\GitHub\ShahDalamadur\converted_battleship\src\GameLogic.cs" Line="1" Column="1" />
+      <File FileName="src\UtilityFunctions.cs" Line="10" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="C:\Users\Peter\Documents\GitHub\ShahDalamadur\converted_battleship\src\GameLogic.cs" line="23" column="12" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
