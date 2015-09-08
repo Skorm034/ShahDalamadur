@@ -1,0 +1,60 @@
+Date/Location: 8-Sep-2015 at 15:30 in EN310
+
+Attendees: Peter Argent (PA) Jim James (JJ) Hannah Jones (HJ, Chair), Marcus Crisafi (MC, minute taker)
+
+Chair's Summary: 
+Last week we added Marcus to Github and got him on Trello. We also put the code through a converter but found lots of bugs.
+This week will be dedicated to fixing any code that doesn't work. We will also need to set up Trello for the following
+weeks sprints and setup a product and sprint backlog.
+
+
+MC Summary:
+I convertered all nessasry VB code into C#
+
+PA Summary:
+Helped out people on their own computers making sure things were on track and ensured Marcus knew how to use the converter. 
+
+
+JJ Summary:
+I went through and put everything in the same namespace, got rid of all System.Data references and removed any invisible code.
+
+
+Information Updates/Reminders
+=============================
+* Last week was about converting and documenting the code
+* This week we will use a sprint process over two weeks to fix
+bugs and extend the project. (No bug fixing or extensions yet!)
+* Help from an external consultant has been provided to help get
+the code converted and working if that was not done.
+* Everyone should have used toggl.com to track their time last
+week. Also track time on tasks this week with Toggl.
+* Tutor must be added to GitHub, Trello and Toggl.
+* Slack will be used to show the changes in the Trello board
+during the sprint of activity
+* The Programming Help Desk ATC620 is *still* available to help us
+with programming for this unit.
+
+Meeting Start Time: 16:27
+Decisions Needed
+================
+*  Motion by PA, seconded JJ: We've been code from an external source and it has less bugs in it 
+that what we had orginally and we will use as we understand it better.
+
+General Items
+=============
+* (JJ) The Trello board needs to be updated ready for the planned
+Sprint process. In particular columns for project backlog and
+sprint backlog will be needed.
+* (JJ) Create and link the team slack so that we can be notified and
+have a nice record of the Trello updates.
+* (HJ / JJ) The project backlog of tasks needs to be created. Use the
+existing bugs and features we have documented, and convert to the
+required format. Need a meeting after this meeting to get that
+done and into Trello (today).
+* (HJ) Project backlog tasks need to be prioritised and their time
+estimated using 1,2,4,8 hour categories. (Today)
+* (HJ) The new Sprint backlog needs to be pre-selected ready for
+discussion and approval with the project owner. (Today)
+* Once Sprint has started, hold a daily scrum meeting. (Start next
+week?)
+* (PA, MC) Update code.
