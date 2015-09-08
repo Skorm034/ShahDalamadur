@@ -5,7 +5,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
+<<<<<<< HEAD
 
+=======
+namespace BattleShips
+{
+>>>>>>> 731c326c5156866ffb33b76663771f04da0d3bbe
 /// <summary>
 /// This includes a number of utility methods for
 /// drawing and interacting with the Mouse.
@@ -315,7 +320,7 @@ static class UtilityFunctions
 		}
 	}
 }
-
+}
 //=======================================================
 //Service provided by Telerik (www.telerik.com)
 //Conversion powered by NRefactory.

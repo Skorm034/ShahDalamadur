@@ -5,7 +5,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
-
+namespace BattleShips
+{
 /// <summary>
 /// The battle phase is handled by the DiscoveryController.
 /// </summary>
@@ -77,7 +78,7 @@ static class DiscoveryController
 	}
 
 }
-
+}
 //=======================================================
 //Service provided by Telerik (www.telerik.com)
 //Conversion powered by NRefactory.

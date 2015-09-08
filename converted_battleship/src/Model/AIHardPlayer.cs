@@ -11,6 +11,9 @@ using System.Diagnostics;
 /// the AI knows it has hit multiple ships. Then will try to destoy all around tiles
 /// that have been hit.
 /// </summary>
+
+namespace BattleShips
+{
 public class AIHardPlayer : AIPlayer
 {
 
@@ -353,7 +356,7 @@ public class AIHardPlayer : AIPlayer
 	}
 
 }
-
+}
 //=======================================================
 //Service provided by Telerik (www.telerik.com)
 //Conversion powered by NRefactory.

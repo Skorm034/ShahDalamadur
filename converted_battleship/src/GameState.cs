@@ -9,7 +9,8 @@ using System.Diagnostics;
 /// This is used to control the actions and view displayed to
 /// the player.
 /// </summary>
-
+namespace BattleShips
+{
 public enum GameState
 {
 	/// <summary>
@@ -52,7 +53,7 @@ public enum GameState
 	/// </summary>
 	Quitting
 }
-
+}
 //=======================================================
 //Service provided by Telerik (www.telerik.com)
 //Conversion powered by NRefactory.

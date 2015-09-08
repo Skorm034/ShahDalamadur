@@ -5,7 +5,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
-
+namespace BattleShips
+{
 /// <summary>
 /// The DeploymentController controls the players actions
 /// during the deployment phase.
@@ -181,7 +182,7 @@ static class DeploymentController
 		return ShipName.None;
 	}
 }
-
+}
 //=======================================================
 //Service provided by Telerik (www.telerik.com)
 //Conversion powered by NRefactory.
