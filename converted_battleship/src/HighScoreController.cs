@@ -154,11 +154,11 @@ static class HighScoreController
 	}
 
 	/// <summary>
-	/// Read the user's name for their highsSwinGame.
+	/// Read the user's name for their high score.
 	/// </summary>
-	/// <param name="value">the player's sSwinGame.</param>
+	/// <param name="value">the player's score.</param>
 	/// <remarks>
-	/// This verifies if the score is a highsSwinGame.
+	/// This verifies if the score is a high score.
 	/// </remarks>
 	public static void ReadHighScore(int value)
 	{
@@ -177,7 +177,7 @@ static class HighScoreController
 			int x = 0;
 			x = SCORES_LEFT + SwinGame.TextWidth(GameResources.GameFont("Courier"), "Name: ");
 
-			SwinGame.StartReadingText(Color.White, NAME_WIDTH, GameResources.GameFont("Courier"), x, ENTRY_TOP);
+			SwinGame.StartReadingText(Color.White, NAME_WIDTH + 1, GameResources.GameFont("Courier"), x, ENTRY_TOP);
 
 			//Read the text from the user
 			while (SwinGame.ReadingText()) {
