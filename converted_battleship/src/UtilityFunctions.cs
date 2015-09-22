@@ -45,7 +45,7 @@ static class UtilityFunctions
 	private static readonly Color MESSAGE_COLOR = SwinGame.RGBAColor(2, 167, 252, 255);
 	public const int ANIMATION_CELLS = 7;
 
-	public const int FRAMES_PER_CELL = 8;
+	public const int FRAMES_PER_CELL = 13;
 	/// <summary>
 	/// Determines if the mouse is in a given rectangle.
 	/// </summary>
