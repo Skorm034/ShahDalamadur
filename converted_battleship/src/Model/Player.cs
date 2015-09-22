@@ -18,9 +18,9 @@ public class Player : IEnumerable<Ship>
 	private ISeaGrid _enemyGrid;
 
 	protected BattleShipsGame _game;
+	private int _curShot;
 	private int _shots;
 	private int _hits;
-
 	private int _misses;
 	/// <summary>
 	/// Returns the game that the player is part of.
@@ -43,8 +43,8 @@ public class Player : IEnumerable<Ship>
 	public Player(BattleShipsGame controller)
 	{
 		_game = controller;
-    _playerGrid = new SeaGrid(_Ships);
-
+   		_playerGrid = new SeaGrid(_Ships);
+		_curShot = 1;
 		//for each ship add the ships name so the seagrid knows about them
 		foreach (ShipName name in Enum.GetValues(typeof(ShipName))) {
 			if (name != ShipName.None) {
@@ -94,6 +94,27 @@ public class Player : IEnumerable<Ship>
 			return null;
 
 		return _Ships[name];
+	}
+
+	public int CurrentShot
+	{
+		get { return _curShot; }
+		set { _curShot = value; }
+	}
+
+	/// <summary>
+	/// Gets the number of ships remaining.
+	/// </summary>
+	/// <value>The number ships.</value>
+	public int NumberShips{ 
+		get { 
+			int result = 0;
+			foreach (Ship s in _Ships.Values){
+				if (s.IsDestroyed == false)
+					result++;
+			}
+			return result;
+		}
 	}
 
 	/// <summary>
